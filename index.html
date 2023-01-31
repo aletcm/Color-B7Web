@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <!-- responsiveness setting -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- attributes with external CSS codes; HTML code requests external CSS files -->
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+        <title>Seleção de cores</title>
+    </head>
+    <body>
+        <div id="topStripe">{ Desafio das Cores }</div>
+
+        <div id="mainFrame">
+            <div id="core">
+                <div class="inside"></div>
+
+                <div id="changeableSquare">
+                    <button onclick="blue()">Azul</button>
+        
+                    <button onclick="red()">Vermelho</button>
+        
+                    <button onclick="green()">Verde</button>
+                        
+                    <button onclick="yellow()">Amarelo</button>
+                </div>
+
+                <div class="inside">
+                    Desafio da B7Web: página <strong>"CORES"</strong>; por Alessandro Taddei.
+                </div>
+            </div>
+        </div>
+
+        <div id="lowerStripe">
+            <img onclick="white()" src="assets/images/logo.jpg" title="CLIQUE AQUI PARA RESETAR">
+        </div>
+        <!-- content in Javascript code; HTML code requests external JS files -->
+        <script src="assets/js/script.js"></script>
+    </body>
+</html>
